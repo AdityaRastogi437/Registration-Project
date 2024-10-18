@@ -77,15 +77,15 @@
 
 
 <h1>How to run this project</h1>
-<h3>In this project i have used Vscode Editor for frontend development and Spring tool suite 4 for backend development and mySql 5.5 database</h3>
+<h3>In this project i have used Vscode Editor for frontend development and  backend development and mySql 5.5 database</h3>
 <h3>Steps to run this project</h3>
- <h4>First you have to download vs code for the frontend and spring tool suite 4 for the backend and you also have to download mysql 5.5</h4>
+ <h4>First you have to download vs code to run the project and you also have to download mysql 5.5</h4>
  <ul>
    <li>first you have to pull this project from the github using vscode editor or gitbash</li>
    <li>for pull this project you can use command git clone (http link)</li>
-   <li>after that you can open frontend folder on vscode and backend folder on spring tool suite</li>
+   <li>after that you have to open frontend folder and backend folder on vs code separately </li>
    <li>To run frontend code on brower first you will have run npm install command after that you will have to run npm start command.</li>
-   <li>To run backend code on console of spring tool suite you have to right click on the project and choose Run As option after that choose Springboot app </li>
+   <li>To run backend code on console of vscode you have to install springboot extension on vscode</li>
    <li>Now project will run successfully </li>
  </ul>
  </body>
