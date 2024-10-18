@@ -30,7 +30,7 @@ export default function View() {
     const handleDelete = (id) => {
       Swal.fire({
         title:"Are You Sure",
-        text:"You want to this delete item",
+        text:"You want to Delete this user",
         icon:"warning",
         showCancelButton:true,
         confirmButtonText:"Delete",

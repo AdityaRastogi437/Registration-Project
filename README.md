@@ -84,7 +84,7 @@
    <li>first you have to pull this project from the github using vscode editor or gitbash</li>
    <li>for pull this project you can use command git clone (http link)</li>
    <li>after that you can open frontend folder on vscode and backend folder on spring tool suite</li>
-   <li>To run frontend code on brower you will have to use command npm start</li>
+   <li>To run frontend code on brower first you will have run npm install command after that you will have to run npm start command.</li>
    <li>To run backend code on console of spring tool suite you have to right click on the project and choose Run As option after that choose Springboot app </li>
    <li>Now project will run successfully </li>
  </ul>
