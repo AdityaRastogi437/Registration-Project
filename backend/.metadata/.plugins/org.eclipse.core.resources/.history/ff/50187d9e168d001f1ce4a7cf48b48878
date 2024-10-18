@@ -1,0 +1,10 @@
+package com.spring.dto;
+
+public class RegistrationDTO {
+
+	private String userName;
+	private String userEmail;
+	private String password;
+	private String userDOB;
+	private String userAddress;
+}

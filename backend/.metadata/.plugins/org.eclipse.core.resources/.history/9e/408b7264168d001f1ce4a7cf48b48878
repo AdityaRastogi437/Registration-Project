@@ -1,0 +1,11 @@
+package com.spring.entities;
+
+public class RegistrationEntities {
+
+	private int userId;
+	private String userName;
+	private String userEmail;
+	private String password;
+	private String userDOB;
+	private String userAddress;
+}
