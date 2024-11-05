@@ -11,9 +11,9 @@ export default function Dashboard() {
     <div className='container-fluid p-0 m-0 '>
    <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand to="/">Registration</Navbar.Brand>
+          <Navbar.Brand href="/">Registration</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link to="/">View</Nav.Link>
+            <Nav.Link href="/">View</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

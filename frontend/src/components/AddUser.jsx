@@ -66,14 +66,14 @@ export default function AddUser() {
           </div>
 
           <div className='col-12 mb-3 '>
-            <label htmlFor="name"><strong>Password:</strong></label>
+            <label htmlFor="password"><strong>Password:</strong></label>
             <input type="password" name='password'  placeholder='Enter Password' id='password' className='form-control rounded' value={user.password} 
              onChange={handleChange} required/>
           </div>
 
           <div className='col-12 mb-3 '>
-            <label htmlFor="salary"><strong>Date of Birth:</strong></label>
-            <input type="text" name='dob'  placeholder='Enter Date of birth' id='salary' className='form-control rounded' value={user.dob} 
+            <label htmlFor="dob"><strong>Date of Birth:</strong></label>
+            <input type="date" name='dob'  placeholder='Enter Date of birth' id='dob' className='form-control rounded' value={user.dob} 
              onChange={handleChange} required/>
           </div>
 

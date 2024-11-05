@@ -83,14 +83,14 @@ export default function EditUser() {
           </div>
 
           <div className='col-12 mb-3 '>
-            <label htmlFor="name"><strong>Password:</strong></label>
+            <label htmlFor="password"><strong>Password:</strong></label>
             <input type="password" name='password'  placeholder='Enter Password' id='password' className='form-control rounded' value={user.password} 
              onChange={handleChange} required/>
           </div>
 
           <div className='col-12 mb-3 '>
-            <label htmlFor="salary"><strong>Salary:</strong></label>
-            <input type="text" name='salary'  placeholder='Enter Salary' id='salary' className='form-control rounded' value={user.dob} 
+            <label htmlFor="dob"><strong>Date Of Birth:</strong></label>
+            <input type="date" name='dob'  placeholder='Enter Date of Birth' id='dob' className='form-control rounded' value={user.dob} 
              onChange={handleChange} required/>
           </div>
 
